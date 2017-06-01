@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natodriod.kotlin.kotlinfunctions.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHelloWorld"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="String operation"
+        android:inputType="text"
+        android:text="Champion Barcelona" />
+    <Button
+        android:id="@+id/bString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replace Barcelone with Qarabag"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNumber1"
+        android:inputType="number"
+        android:hint="Enter number 1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNumber2"
+        android:inputType="number"
+        android:hint="Enter number 2"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="+"
+            android:id="@+id/bSum"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:id="@+id/bSub"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="/"
+            android:id="@+id/bDiv"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="*"
+            android:id="@+id/bMult"/>
+    </LinearLayout>
+
+    <Button android:id="@+id/bIfCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condition"/>
+
+    <Button android:id="@+id/bLoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loops"/>
+
+    <Button android:id="@+id/bRanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ranges"/>
+
+    <Button android:id="@+id/bCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collection"/>
+
+
+</LinearLayout>
